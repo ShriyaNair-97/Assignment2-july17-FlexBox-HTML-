@@ -1,0 +1,13 @@
+DIFFERENTIATE BETWEEN "EM"AND "REM"
+
+1.Ems" (em): The “em” is a scalable unit that is used in web document media.
+An em is equal to the current font-size, for instance, if the font-size of the document is 12pt, 1em is equal to 12pt.
+Ems are scalable in nature, so 2em would equal 24pt, .5em would equal 6pt, etc. 
+Ems are becoming increasingly popular in web documents due to scalability and their mobile-device-friendly nature.
+Em is equal to the computed font-size of that element’s parent. For example, If there is a div element defined with font-size: 16px then for that div and for its children 1em = 16px.
+
+2.Rem" (rem): Root ems, are always relative to the font-size of the <html> element of the html code. It doesn’t matter how deeply nested an element is, its rem lengths will always be a proportion of the font-size of <html>.
+rem values are relative to the root html element, not to the parent element. That is, If font-size of the root element is 16px then 1 rem = 16px for all elements.
+
+**"em” and “rem” are both relative units and scales accordingly with another element.
+**“em” is relative to the font-size of the nearest or parent element while “rem” is relative to the html (root) font-size (the entire page).
