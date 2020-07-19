@@ -1,11 +1,5 @@
 
-body{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin-left: 200px;
-    margin-top: 80px;
-}
+
 #holygrail{
     display: flex;
     flex-direction: column;
@@ -13,6 +7,8 @@ body{
     background : linear-gradient( #e95420,#772953);
     height: 656px;
     width: 1110px;
+    margin-left: 200px;
+    margin-top: 80px;
     
 }
 
@@ -40,23 +36,25 @@ body{
 }
 
 #content{
-        width: 100px;
-        height: 400px;
-       
+    display: flex;
+    width: 650px;
+    height:400px;
+       order: 2;
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 20px;
         background-color: rgba(255,255,255,0.15);
         border: 2px solid #fff;
         padding:20px;
-        align-items: center;
+       
         color:rgba(255,255,255,1);
 }
 
 #secondary{
-    width: 650px;
-    height:400px;
-  
+    width: 100px;
+    height: 400px;
+    display: flex;
+  order: 1;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
@@ -68,9 +66,10 @@ body{
 }
 
 #tertiary{
+    display: flex;
     width:100px;
     height: 400px;
-    
+    order: 3;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
